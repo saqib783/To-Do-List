@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+   background:linear-gradient(135deg, #153677, #4c085f);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    text-align: center;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background-color: white;
+    border-radius: 12px;
+}
